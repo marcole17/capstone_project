@@ -1,0 +1,323 @@
+html {
+font-size: 16px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/*Header =====================================================================*/
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  border: 1px solid red;
+  margin: auto 24px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  font-family: 'Cantarell', sans-serif;
+  color: darkgrey;
+  letter-spacing: -1px;
+  flex-grow: 1;
+}
+
+.logo img {
+  height: 3.5rem;
+}
+
+.logo span strong {
+  font-weight: bold;
+  color: dimgrey;
+}
+
+nav ul {
+  display: flex;
+  font-family: 'Cantarell', sans-serif;
+  font-size: 1rem;
+}
+
+nav ul li {
+  padding-left: 1rem;
+}
+
+nav ul li a {
+  color: dimgrey;
+  text-decoration: none;
+}
+
+/*First Banner ===============================================================*/
+
+.first-banner {
+  background-color: darkseagreen;
+}
+
+.first-banner .container {
+  display: flex;
+  border: 1px solid red;
+}
+
+.study {
+  max-width: 60%;
+  border: 1px solid red;
+  margin: 32px 24px;
+}
+
+.study img {
+  max-width: 100%;
+}
+
+.learn {
+  margin: 2rem 24px;
+  border: 1px solid red;
+  font-family: 'Aldrich', sans-serif;
+}
+
+.learn h2 {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+
+.learn p {
+  font-size: 1.5rem;
+  margin: 2rem 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.learn h3 {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 2rem auto;
+  background-color: lightseagreen;
+  width: 60%;
+  padding: 1rem 0;
+  border: 2px solid teal;
+}
+
+.learn h3 a {
+  text-decoration: none;
+  color: black;
+}
+
+/*Second Banner ==============================================================*/
+
+.second-banner .container {
+  display: flex;
+  margin-top: 2rem;
+
+}
+
+.second-banner .container .column-a {
+  max-width: 60%;
+  margin: 0 1.5rem;
+  border: 1px solid red;
+}
+
+.column-a .reading img {
+  max-width: 100%;
+}
+
+.column-a .quote {
+  margin: 32px 24px;
+}
+
+.quote h2 {
+  font-family: 'Aldrich', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.quote p {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 1.5rem;
+}
+
+.quote h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.second-banner .container .column-b {
+  max-width: 40%;
+  margin-top: rem;
+  padding-left: 1rem;
+  border: 1px solid red;
+}
+
+.column-b .pic {
+  display: flex;
+  max-width: 100%;
+}
+
+.pic .image-1 {
+  max-width: 35%;
+}
+
+.pic .image {
+  max-width: 35%;
+}
+
+.image-1 img {
+  max-width: 100%;
+}
+
+.image img {
+  max-width: 100%;
+  border: 1px solid red;
+  margin: 1rem 0;
+}
+
+.date {
+  margin: auto 0;
+  border: 1px solid red;
+  font-family: 'Aldrich', sans-serif;
+}
+
+.date h2 {
+  font-size: 1.3rem;
+  font-weight: bold;
+
+}
+
+.date h3 {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0.5rem 0;
+}
+
+/*Third Bannner 'Start Learning' =============================================*/
+
+.third-banner .container {
+  border: 1px solid blue;
+}
+
+.banner-header h2 {
+  text-align: center;
+  margin-top: 2rem;
+  font-family: 'Aldrich', sans-serif;
+}
+
+.start-learning {
+  margin: 2rem 4.5rem;
+  border: 1px solid green;
+}
+
+.row {
+  display:flex;
+  margin-bottom: 2rem;
+
+}
+
+.subject {
+  padding-bottom: ;
+  padding-left: ;
+  margin: 1rem;
+  width: 33%;
+  border: 1px solid red;
+}
+
+.subject-img {
+  padding-bottom: 1rem;
+}
+
+.subject-img img {
+  max-width: 100%;
+}
+
+.subject-content {
+  margin: 1rem;
+}
+
+.subject-content h2 {
+    padding-bottom: 0.5rem;
+}
+
+.subject-content h3 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.subject-content p {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/*Fourth Banner===============================================================*/
+
+.content {
+  display: flex;
+  margin: 2rem 0;
+}
+
+.column-left {
+  border: 1px solid red;
+  max-width: 60%;
+  padding:0 1.5rem;
+}
+
+.video video {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.main-article h2 {
+  margin-bottom: 0.5rem;
+}
+
+.column-right {
+  max-width: 40%;
+  border: 1px solid blue;
+}
+
+.articles {
+  margin: 1rem 0;
+  display:flex;
+  width: 100%;
+}
+
+.image-plan {
+  width: 35%;
+}
+
+.image-plan img {
+  margin:;
+  max-width: 100%;
+  border: 1px solid red;
+
+}
+
+.article {
+  width: 65%;
+  border: 1px solid red;
+  padding-left: 1rem;
+  margin: auto 0;
+}
+
+/*Footer======================================================================*/
+
+footer {
+  margin-bottom:;
+}
+
+.footer {
+  display: flex;
+  margin: 0 1.5rem 0 1.5rem;
+  border: 1px solid red;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+
+}
+
+.copyright {
+  display: flex;
+  flex-grow: 1;
+}
+
+ul a {
+  padding-left: 1rem;
+}
